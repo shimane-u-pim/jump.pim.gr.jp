@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Metadata } from "next";
 import "./global.css";
 
@@ -23,6 +24,7 @@ export default function RootLayout({
                     </main>
                 </div>
             </body>
+            <GoogleAnalytics gaId="G-R8DE9XRLBF" />
         </html>
     )
 }
